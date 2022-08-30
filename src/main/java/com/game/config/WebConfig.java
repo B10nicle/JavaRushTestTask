@@ -17,11 +17,14 @@ import org.springframework.web.servlet.view.JstlView;
 
 import java.util.List;
 
+/**
+ * @author Oleg Khilko
+ */
+
 @Configuration
 @EnableWebMvc
 @ComponentScan("com.game")
 public class WebConfig implements WebMvcConfigurer {
-
 
     @Bean
     public ViewResolver internalResourceViewResolver() {

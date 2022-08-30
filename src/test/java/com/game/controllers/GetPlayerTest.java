@@ -1,10 +1,9 @@
-package com.game.controller;
+package com.game.controllers;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.game.controller.utils.PlayerInfoTest;
-import com.game.controller.utils.TestsHelper;
+import com.game.controllers.utils.PlayerInfoTest;
+import com.game.controllers.utils.TestsHelper;
 import org.junit.Test;
-import org.springframework.http.MediaType;
 import org.springframework.test.web.servlet.ResultActions;
 
 import static org.springframework.test.util.AssertionErrors.assertEquals;

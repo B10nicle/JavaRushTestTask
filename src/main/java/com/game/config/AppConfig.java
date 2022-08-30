@@ -21,17 +21,21 @@ import java.util.Properties;
 
 import static org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseType.H2;
 
+/**
+ * @author Oleg Khilko
+ */
+
 @Configuration
 @EnableTransactionManagement
 @ComponentScan("com.game")
-@EnableJpaRepositories(basePackages = "com.game.repository")
+@EnableJpaRepositories(basePackages = "com.game.repositories")
 public class AppConfig {
 
     @Bean
     public LocalContainerEntityManagerFactoryBean entityManagerFactory() {
         LocalContainerEntityManagerFactoryBean em = new LocalContainerEntityManagerFactoryBean();
         em.setDataSource(dataSource());
-        em.setPackagesToScan("com.game.entity");
+        em.setPackagesToScan("com.game.models");
 
         JpaVendorAdapter vendorAdapter = new HibernateJpaVendorAdapter();
         em.setJpaVendorAdapter(vendorAdapter);
@@ -48,6 +52,7 @@ public class AppConfig {
         dataSource.setUrl("jdbc:mysql://localhost:3306/rpg?serverTimezone=UTC&characterEncoding=UTF-8");
         dataSource.setUsername("root");
         dataSource.setPassword("root");
+
         return dataSource;
     }
 

@@ -1,4 +1,8 @@
-package com.game.entity;
+package com.game.models;
+
+/**
+ * @author Oleg Khilko
+ */
 
 public enum Profession {
     WARRIOR,

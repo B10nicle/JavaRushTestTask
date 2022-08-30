@@ -5,6 +5,10 @@ import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatche
 import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
 
+/**
+ * @author Oleg Khilko
+ */
+
 public class MyWebAppInit extends AbstractAnnotationConfigDispatcherServletInitializer {
 
     @Override
@@ -27,5 +31,4 @@ public class MyWebAppInit extends AbstractAnnotationConfigDispatcherServletIniti
     protected String[] getServletMappings() {
         return new String[]{"/"};
     }
-
 }

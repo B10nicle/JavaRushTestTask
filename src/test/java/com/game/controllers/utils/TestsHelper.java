@@ -1,8 +1,7 @@
-package com.game.controller.utils;
+package com.game.controllers.utils;
 
-import com.game.controller.PlayerOrder;
-import com.game.entity.Profession;
-import com.game.entity.Race;
+import com.game.models.Profession;
+import com.game.models.Race;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;

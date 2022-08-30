@@ -1,4 +1,8 @@
-package com.game.controller;
+package com.game.controllers;
+
+/**
+ * @author Oleg Khilko
+ */
 
 public enum PlayerOrder {
     ID("id"), // default

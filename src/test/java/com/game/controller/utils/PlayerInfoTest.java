@@ -1,7 +1,7 @@
-package com.game.controllers.utils;
+package com.game.controller.utils;
 
-import com.game.models.Profession;
-import com.game.models.Race;
+import com.game.model.Profession;
+import com.game.model.Race;
 
 import java.time.Instant;
 import java.time.LocalDate;

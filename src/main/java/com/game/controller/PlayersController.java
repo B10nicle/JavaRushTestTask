@@ -1,9 +1,9 @@
-package com.game.controllers;
+package com.game.controller;
 
-import com.game.models.Player;
-import com.game.models.Profession;
-import com.game.models.Race;
-import com.game.services.PlayersService;
+import com.game.model.Player;
+import com.game.model.Profession;
+import com.game.model.Race;
+import com.game.service.PlayersService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;

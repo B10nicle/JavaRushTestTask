@@ -1,11 +1,11 @@
-package com.game.services;
+package com.game.service;
 
 import com.game.BadRequestException;
 import com.game.PlayerNotFoundException;
-import com.game.models.Player;
-import com.game.models.Profession;
-import com.game.models.Race;
-import com.game.repositories.PlayersRepository;
+import com.game.model.Player;
+import com.game.model.Profession;
+import com.game.model.Race;
+import com.game.repository.PlayersRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;

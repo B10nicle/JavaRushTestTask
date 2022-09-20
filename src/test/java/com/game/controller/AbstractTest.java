@@ -1,4 +1,4 @@
-package com.game.controllers;
+package com.game.controller;
 
 import com.game.config.AppConfig;
 import com.game.config.MyWebAppInit;

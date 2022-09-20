@@ -1,4 +1,4 @@
-package com.game.models;
+package com.game.model;
 
 import javax.persistence.*;
 import java.util.Date;

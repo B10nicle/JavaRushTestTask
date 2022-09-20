@@ -1,10 +1,10 @@
-package com.game.controllers;
+package com.game.controller;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.game.models.Profession;
-import com.game.controllers.utils.PlayerInfoTest;
-import com.game.controllers.utils.TestsHelper;
-import com.game.models.Race;
+import com.game.model.Profession;
+import com.game.controller.utils.PlayerInfoTest;
+import com.game.controller.utils.TestsHelper;
+import com.game.model.Race;
 import org.junit.Test;
 import org.springframework.http.MediaType;
 import org.springframework.test.web.servlet.ResultActions;

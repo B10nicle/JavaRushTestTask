@@ -1,8 +1,8 @@
 package com.game.controller;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.game.model.Profession;
-import com.game.model.Race;
+import com.game.entity.Profession;
+import com.game.entity.Race;
 import com.game.controller.utils.PlayerInfoTest;
 import com.game.controller.utils.TestsHelper;
 import org.junit.Test;

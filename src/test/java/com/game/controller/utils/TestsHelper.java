@@ -1,7 +1,7 @@
 package com.game.controller.utils;
 
-import com.game.model.Profession;
-import com.game.model.Race;
+import com.game.entity.Profession;
+import com.game.entity.Race;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;

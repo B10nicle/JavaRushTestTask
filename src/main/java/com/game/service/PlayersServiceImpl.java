@@ -1,7 +1,7 @@
 package com.game.service;
 
-import com.game.BadRequestException;
-import com.game.PlayerNotFoundException;
+import com.game.exception.BadRequestException;
+import com.game.exception.PlayerNotFoundException;
 import com.game.entity.Player;
 import com.game.entity.Profession;
 import com.game.entity.Race;
